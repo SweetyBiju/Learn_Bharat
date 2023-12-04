@@ -1,0 +1,282 @@
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;}
+
+ .firstpage{  
+   background-image: url(elearningbg.jpg);
+   background-size:cover;
+   background-repeat:no-repeat;
+   padding-bottom:15px;
+}
+
+/* Style the header containing the logo and navigation */
+header {
+    background-color: rgba(238, 246, 248, 0.3);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Style the logo */
+.logo img {
+    max-width: 100px ;
+}
+
+/* Style the navigation bar */
+nav ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+nav li {
+   font-size:20px;
+    margin-right:50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Change link color on hover */
+nav a:hover {
+    background-color: #f43d6a; 
+}
+
+/*For the left side image*/
+#left-image {
+    float: left;/*  This property aligns the image to the left */
+    margin-right: 20px; /* Add some space between the image and other content */
+    margin-top:50px;
+    width:40rem;height:40rem;
+    display:flex;
+}
+
+
+
+/*For login sign up form*/
+
+.loginform {
+    max-width: 45%;
+    margin-top: 20px;
+    margin-right: 10px; 
+    margin-left: auto; /* <-- margin-left remains auto */
+    padding: 20px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    background-color: rgba(228, 173, 221, 0.3);
+  
+  
+  
+    
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.label {font-size:20px;
+    display: block;
+    font-weight: bold;
+}
+
+#name,#email,#password,#dob,#mobno{
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+
+ #submit{
+    
+    color:white;
+    padding: 10px 15px;
+    
+    
+    border-radius: 10px;
+    background-image: linear-gradient(to right,#ff9234,#fc6274 100%);
+    cursor: pointer;font-size:15px;font-weight: 700;
+    margin-left:auto;margin-right:auto;
+}
+
+
+/*COURSES*/
+
+
+.courses{
+    background-color:whitesmoke;border-radius: 8px;margin:auto;width:60%;height:100%;box-shadow:5px 5px 25px   rgba(95, 94, 94, 0.5);
+}
+
+.courses-item-img,.courses-item-para{grid-row: 1 / span 3;}
+
+.courses-item-para{font-size: 20px; text-align: center;}
+
+.course-button{font-size:20px;color:white;border-radius:10px;padding:15px 5px;margin-left:25%;margin-right:25%;background-image: linear-gradient(to right,#ff9234,#fc6274 100%);cursor:pointer;}
+
+
+
+
+/*ADVANATGES*/
+
+.advanatges {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+   }
+
+   
+.advantages-item {
+    margin:auto 15%;
+   
+    }
+   
+.advantages-item img {
+    width:75%;
+    height:75%;
+   }
+
+
+
+
+/*Study materials*/
+#materialshead{font-family: cursive;font-size: 40px; text-align:center;}
+
+.diff-course-clat-nda-ecomm {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px;
+}
+
+.diff-course-clat-nda-ecomm-box {
+    /*background-color: #f1f1f1;*/
+    padding: 16px;
+    margin: 16px;
+
+    background-color:whitesmoke;border-radius: 8px;box-shadow:5px 5px 25px   rgba(95, 94, 94, 0.5);
+
+
+    text-align: center;
+    
+    width: calc(25% - 32px);  /*The width of the boxes is set to 25% of the container minus the margin to ensure they fit evenly on the screen.*/
+}
+
+.diff-course-clat-nda-ecomm-box img {
+    max-width: 100%;
+    height: 50%;
+}
+.diff-course-clat-nda-ecomm-box h2{font-size:30px;}
+
+.diff-course-clat-nda-ecomm a{text-decoration: none;color: #91097f;}
+.diff-course-clat-nda-ecomm a:hover{color: #f43d6a; text-decoration: underline;}
+
+
+
+
+
+
+
+
+  /*ABOUT US*/
+  #about h2{
+    color:rgb(255, 217, 0);font-size:40px;text-align:center;
+   }
+   
+   
+   #about{padding:25px;background-color:whitesmoke;/* #ce5cd2;*/}
+   #about h4{font-size:24px;color:rgb(255, 217, 0);}
+   #about h3{font-size:22px;color:rgb(255, 217, 0);}
+   #about p{color:white; margin-bottom:60px; font-size:19px;}
+
+
+
+
+
+
+
+
+
+   /*CONTACT US*/
+   #contact{background-image:linear-gradient(#b105b7,#ce5cd2 100%);}
+   #contact-table table {
+    width: 70%;margin-left:250px;
+    border-collapse:collapse;
+   }
+   #contact-table tr{
+    color:rgb(6, 6, 6);
+
+}
+#contact-table td{
+    
+  padding: 0px 25px;
+   
+    
+    text-align:start;
+}
+
+#contact-table th {
+    font-style:unset;
+    color: rgb(255, 217, 0);
+    text-align:start;
+}
+
+#contact-table table, th, td {
+   border:none;
+}
+
+#contact-table td:hover {
+    color: rgb(209, 209, 209);
+    
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+
+
+/*contact and follow*/
+#contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding: 20px;
+}
+#contact-info h2 {
+    margin: 0;color:white;
+}
+.social-media-icons img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+/*FOOTER*/
+
+.footer-links {
+  display:inline; 
+  color: #fff;
+  padding: 20px 0;
+  text-align: left;
+}
+
+/* CSS for the links in the footer */
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* CSS for the copyright section */
+.copyright {
+  font-size: 14px;text-align:right;color:white;}
+
+
+ 
